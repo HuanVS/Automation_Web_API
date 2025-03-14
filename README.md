@@ -11,8 +11,8 @@ _For API: src/test/resources/features/api/GithubProjects.feature
 ## Execute test script
 _Method 1: Using maven command line
 ```
-mvn clean verify -Dtags="Web_TC001"
-mvn clean verify -Denvironment=default -Dtags="API_TC001"
+mvn clean verify -Dtags="@Web_TC001"
+mvn clean verify -Denvironment=default -Dtags="@API_TC001"
 ```
 _Method 2: Using CucumberTestSuite
 Change value of "tags" and then click run (Example: tags = "@API_TC001")
